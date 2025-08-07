@@ -145,7 +145,7 @@ section {
   background-color: black;
   padding: 12rem 4rem 6rem;
   flex-wrap: wrap;
-  text-align: center;
+  text-align: left;
 }
 
 .home-img img {
@@ -187,7 +187,7 @@ section {
 .typing-text span::after {
   content: "";
   background-color: black;
-  position: absolute;
+  /* position: absolute; */
   width: calc(100% + 8px);
   height: 100%;
   border-left: 3px solid black;
